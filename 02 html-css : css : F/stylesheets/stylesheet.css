@@ -1,0 +1,167 @@
+body {
+    margin: 0 auto;    
+}
+.logo {
+    background-color: rgb(255, 255, 255);
+    object-position: left;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.cover {
+    background: url("/image/flowershop.jpg");
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    min-height: 350px;
+    filter: brightness(50%);
+    overflow: auto;
+}
+
+h1 {
+text-align: center;
+padding-top: 140px;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid rgb(92, 253, 100);
+    background-color: rgb(92, 253, 100);
+    border-radius: 30px;
+    padding: 0.7em 1em;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+}
+
+section {
+    background-color: rgb(182, 218, 184);
+    min-height: 40%;
+    margin: 0 auto;
+
+}
+
+.ser1 {
+    background-color: rgb(182, 218, 184);
+    padding: 2.5%;
+    float: left;
+    width: 45%;
+}
+
+.ser2 {
+    background-color: rgb(182, 218, 184);
+    padding: 2.5%;
+    float: left;
+    width: 45%;
+}
+
+.ser3 {
+    background-color: rgb(182, 218, 184);
+    padding: 2.5%;
+    float: left;
+    width: 45%;
+}
+
+.ser4 {
+    background-color: rgb(182, 218, 184);
+    padding: 2.5%;
+    float: left;
+    width: 45%;
+}
+ 
+img {
+    float: left;
+    margin: auto;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 auto;    
+    }
+    .logo {
+        background-color: rgb(255, 255, 255);
+        object-position: left;
+        height: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    
+    .cover {
+        background: url("/image/flowershop.jpg");
+        color: rgb(255, 255, 255);
+        position: relative;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        min-height: 300px;
+        filter: brightness(50%);
+        overflow: auto;
+    }
+    
+    h1 {
+    text-align: center;
+    padding-top: 70px;
+    }
+    
+    h2 {
+        text-align: center;
+        border: 1px solid rgb(92, 253, 100);
+        background-color: rgb(92, 253, 100);
+        border-radius: 30px;
+        padding: 0.7em 1em;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+        margin-left: -90px;
+    }
+    
+    section {
+        background-color: rgb(182, 218, 184);
+        min-height: 40%;
+        margin: 0 auto;
+    
+    }
+    
+    .ser1 {
+        background-color: rgb(182, 218, 184);
+        padding: 1% 5%;
+        float: left;
+        width: 90%;
+    }
+    
+    .ser2 {
+        background-color: rgb(182, 218, 184);
+        padding: 1% 5%;
+        float: left;
+        width: 90%;
+    }
+    
+    .ser3 {
+        background-color: rgb(182, 218, 184);
+        padding: 1% 5%;
+        float: left;
+        width: 90%;
+    }
+    
+    .ser4 {
+        background-color: rgb(182, 218, 184);
+        padding: 1% 5%;
+        float: left;
+        width: 90%;
+    }
+     
+    img {
+        float: left;
+        margin: auto;
+        height: 20px;
+    }
+  }
