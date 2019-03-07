@@ -1,6 +1,7 @@
 .background {
     background: url("/image/flowershop.jpg");
     display: flex;
+    background-size: cover;
     height: 70vh;
     justify-content: center;
     align-items: center;
@@ -12,8 +13,8 @@
 .darker {
     background-color: #000000;
     opacity: 0.5;
-    width: 100%;
     height: 100%;
+    width: 100%;
     display: flex;
     position: absolute;
     z-index: 1;
