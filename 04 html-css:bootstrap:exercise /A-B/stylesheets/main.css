@@ -1,0 +1,314 @@
+@media only screen and (max-width: 1000px) {
+    nav a {
+        font-size: 1.2em !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    nav a {
+        font-size: 1.3em !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    nav a {
+        font-size: 1em !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    nav a {
+        font-size: 0.8em !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header h1, #about h1, #fouricons h1  {
+        font-size: 2.5em !important;
+    }
+    header p, #about p, #fouricons p, #callme p {
+        font-size: 1.2em !important;
+    }
+    header .buttons a, #about .buttons a, #bullshit .buttons a  {
+        font-size: 1em !important;
+    }
+    #fouricons h3, #bullshit h2, #callme h2 {
+        font-size: 1.7em !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    header h1, #about h1, #fouricons h1  {
+        font-size: 2em !important;
+    }
+    header p, #about p, #fouricons p, #callme p {
+        font-size: 0.9em !important;
+    }
+    header .buttons a, #about .buttons a, #bullshit .buttons a  {
+        font-size: 0.8em !important;
+    }
+    #fouricons h3, #bullshit h2, #callme h2 {
+        font-size: 1.3em !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    header h1, #about h1, #fouricons h1  {
+        font-size: 1.5em !important;
+    }
+    header p, #about p, #fouricons p, #callme p {
+        font-size: 0.8em !important;
+    }
+    header .buttons a, #about .buttons a, #bullshit .buttons a {
+        font-size: 0.7em !important;
+    }
+    #fouricons h3, #bullshit h2, #callme h2 {
+        font-size: 1em !important;
+    }
+}
+
+header {
+    background: url("/image/header.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    responsive-font-size: 4em;
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+}
+
+
+header hr {
+    color: #ff4500;
+    border: 2px solid #ff4500;
+    width: 5%;
+}
+
+header p {
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.3em;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+ header .buttons {
+    display: flex;
+    margin-top: 60px;
+}
+
+header .buttons a{
+    margin: auto;
+    text-align: center;
+    size: 20px;
+    color: #ffffff !important;
+    background-color: #ff4500 !important;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px; 
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+
+#about {
+    background-color: #ff4500;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+#about h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+}
+
+#about hr {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 5%;
+}
+
+#about p {
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 1.3em;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+#about .buttons {
+    display: flex;
+    margin-top: 30px;
+}
+
+#about .buttons a{
+    margin: auto;
+    text-align: center;
+    size: 20px;
+    color: #ff4500 !important;
+    background-color: #ffffff !important;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px; 
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+#fouricons {
+    background-color: #ffffff;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 50px 0;
+
+}
+
+#fouricons h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+}
+
+#fouricons h3 {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 100%;
+    margin: auto;
+}
+
+#fouricons hr {
+    color: #ff4500;
+    border: 2px solid #ff4500;
+    width: 5%;
+}
+
+#fouricons .row{
+    margin: 20px 50px;
+}
+
+#fouricons .row div {
+    margin: 20px 0;
+}
+
+#fouricons p {
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 1em;
+    opacity: 0.7;
+    font-weight: 300;
+    margin-top: 10px
+}
+
+#bullshit {
+    background-color:rgba(0, 0, 0, 0.897); 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#bullshit .row div{
+    padding: 0 !important;
+}
+
+.opacity {
+    background-color: #ff4500;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity:hover{
+    opacity: 0.5;
+}
+
+
+#bullshit h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    width: 100%;
+    margin: 50px 0 20px 0;
+    opacity: 1 !important;
+}
+
+#bullshit .buttons {
+    text-align: center;
+}
+
+#bullshit .buttons a{
+    margin-bottom: 50px ;
+    text-align: center;
+    size: 20px;
+    color: rgba(0, 0, 0, 0.897) !important;
+    background-color: #ffffff !important;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px; 
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+#callme {
+    margin: 50px 0;
+}
+
+#callme h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+#callme hr{
+    width: 5%;
+    color: #ff4500;
+    border: 2px solid #ff4500;
+}
+
+#callme p{
+    text-align: center;
+    padding: 0 10%;
+}
+
+.callme-email {
+    color: #ff4500 !important;
+}
