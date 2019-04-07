@@ -1,0 +1,18 @@
+{
+  "name": "exa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dennis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jest": "^24.7.0"
+  }
+}

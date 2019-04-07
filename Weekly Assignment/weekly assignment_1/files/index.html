@@ -1,0 +1,61 @@
+<html>
+    <head>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+                    rel="stylesheet" 
+                    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+                    crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <form action="/files" method="post" encType="multipart/form-data">
+
+                <label>
+                    file:
+                    <input type='file' id='myfile' name='filename'  multiple size='50' onchange="myFunction()"/>
+                </label>
+            <input type='submit' value="Submit" class="btn btn-primary"/>
+        </form>
+
+        <p id='fileInformation'>
+        </p>
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+            crossorigin="anonymous"></script>
+        <script>
+
+                function myFunction() {
+                let x = document.getElementById('myFile');
+                let txt = '';
+                if ('files' in x) {
+                    if (x.files.length == 0) {
+                        txt = 'Select one or more files.';
+                    } else {
+                        for (var i = 0; i < x.files.length; i++) {
+                            txt += "<br><strong>" + (i + 1) + ". file</strong><br>";
+                            var file = x.files[i];
+                            if ('name' in file) {
+                                txt += 'name: ' + file.name + '<br>';
+                            }
+                            if ('size' in file) {
+                                txt += 'size: ' + file.size + ' bytes <br>';
+                            }
+                        }
+                    }
+                } else {
+                    if (x.value == '') {
+                        txt += 'Select one or more files.';
+                    } else {
+                        txt += "The files property is not supported by your browser!";
+                        txt += "<br>The path of the selected file: " + x.value;
+                    }
+                }
+                document.getElementById('fileInformation').innerHTML=txt;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+/* glabol */
+body {
+    background-color: rgb(172, 168, 163);
+}
+
+.ver {
+    border-right: 5px solid black;
+}
+
+.hor {
+    border-bottom: 5px solid black;
+}
+
+.circle {
+    background-image: url('../image/pug.svg');
+    background-size: contain;
+}
+
+.cross {
+    background-image: url('../image/cat.svg');
+    background-size: contain;
+}
+
+/* main */
+header div {
+    margin:  5px auto;
+    text-align: center;
+    height: 10vh;
+    font-size: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0 30px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.box:first-child + div+ div + div,
+.box:first-child + div+ div + div + div + div + div,
+.cbox:first-child + div+ div + div + div + div + div + div + div + div {
+  clear: left
+}
+
+#button {
+    background-color: transparent;
+    border: 5px solid black;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+footer {
+    margin: 0 auto;
+    height: 10vh;
+}

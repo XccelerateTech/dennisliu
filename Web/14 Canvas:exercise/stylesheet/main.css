@@ -1,0 +1,25 @@
+section {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#draw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+canvas {
+    border: 5px solid black;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: auto;
+    right: auto;
+}
+
+#canvas-draft {
+    background-color: transparent;
+    z-index: 2;
+}
