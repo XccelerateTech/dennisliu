@@ -1,0 +1,14 @@
+{
+  "name": "day27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "starwars.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "dennis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
